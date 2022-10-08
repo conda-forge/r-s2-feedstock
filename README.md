@@ -13,14 +13,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>Travis</td>
-    <td>
-      <a href="https://app.travis-ci.com/conda-forge/r-s2-feedstock">
-        <img alt="linux" src="https://img.shields.io/travis/com/conda-forge/r-s2-feedstock/main.svg?label=Linux">
-      </a>
-    </td>
-  </tr>
+<table>
     
   <tr>
     <td>Azure</td>
@@ -34,13 +27,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_openssl1.1.1r_base4.0</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=linux&configuration=linux_64_openssl1.1.1r_base4.0" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_openssl1.1.1r_base4.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
@@ -48,10 +34,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_openssl3r_base4.0</td>
+              <td>linux_64_openssl1.1.1r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=linux&configuration=linux_64_openssl3r_base4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=linux&configuration=linux_64_openssl1.1.1r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -62,10 +48,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_openssl1.1.1r_base4.0</td>
+              <td>linux_64_openssl3r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_openssl1.1.1r_base4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=linux&configuration=linux_64_openssl3r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -76,10 +62,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_openssl3r_base4.0</td>
+              <td>linux_aarch64_openssl1.1.1r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_openssl3r_base4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_openssl1.1.1r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -90,10 +76,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_openssl1.1.1r_base4.0</td>
+              <td>linux_aarch64_openssl3r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_openssl1.1.1r_base4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=linux&configuration=linux_aarch64_openssl3r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -104,10 +90,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_openssl3r_base4.0</td>
+              <td>linux_ppc64le_openssl1.1.1r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_openssl3r_base4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_openssl1.1.1r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -118,10 +104,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_openssl1.1.1r_base4.0</td>
+              <td>linux_ppc64le_openssl3r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=osx&configuration=osx_64_openssl1.1.1r_base4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=linux&configuration=linux_ppc64le_openssl3r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -132,10 +118,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_openssl3r_base4.0</td>
+              <td>osx_64_openssl1.1.1r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=osx&configuration=osx_64_openssl3r_base4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=osx&configuration=osx_64_openssl1.1.1r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -146,10 +132,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_openssl1.1.1r_base4.0</td>
+              <td>osx_64_openssl3r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=osx&configuration=osx_arm64_openssl1.1.1r_base4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=osx&configuration=osx_64_openssl3r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -160,10 +146,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_openssl3r_base4.0</td>
+              <td>osx_arm64_openssl1.1.1r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=osx&configuration=osx_arm64_openssl3r_base4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=osx&configuration=osx_arm64_openssl1.1.1r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -174,31 +160,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_openssl1.1.1r_base4.0</td>
+              <td>osx_arm64_openssl3r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=win&configuration=win_64_openssl1.1.1r_base4.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=osx&configuration=osx_arm64_openssl3r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_openssl1.1.1r_base4.1</td>
+              <td>win_64_openssl1.1.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=win&configuration=win_64_openssl1.1.1r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=win&configuration=win_64_openssl1.1.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_openssl3r_base4.0</td>
+              <td>win_64_openssl3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=win&configuration=win_64_openssl3r_base4.0" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_openssl3r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13030&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=win&configuration=win_64_openssl3r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-s2-feedstock?branchName=main&jobName=win&configuration=win_64_openssl3" alt="variant">
                 </a>
               </td>
             </tr>
