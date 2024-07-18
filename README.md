@@ -3,11 +3,15 @@ About r-s2-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-s2-feedstock/blob/main/LICENSE.txt)
 
-Home: https://r-spatial.github.io/s2/, https://github.com/r-spatial/s2, https://s2geometry.io/
+Home: https://r-spatial.github.io/s2/
 
 Package license: Apache-2.0
 
 Summary: Provides R bindings for Google's s2 library for geometric calculations on the sphere. High-performance constructors and exporters provide high compatibility with existing spatial packages, transformers construct new geometries from existing geometries, predicates provide a means to select geometries based on spatial relationships, and accessors extract information about geometries.
+
+Development: https://github.com/r-spatial/s2
+
+Documentation: https://s2geometry.io/
 
 Current build status
 ====================
