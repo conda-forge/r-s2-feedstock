@@ -1,4 +1,4 @@
-{% set version = "1.1.7" %}
+{% set version = "1.1.8" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/s2_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/s2/s2_{{ version }}.tar.gz
-  sha256: 30762c7150dd72e2f4a3d50e64b8b73b2d59b73275687ba3eea7a6e07f786878
+  sha256: 4366c00a58471544d34b1ab405206d23c9cfc305468316961fab45f9912a8191
   patches:
     - patches/0001-no-pkg-config-ucrt.patch
 
