@@ -18,6 +18,10 @@ build:
   rpaths:
     - lib/R/lib/
     - lib/
+  missing_dso_whitelist:
+    - '*/R.dll'        # [win]
+    - '*/Rblas.dll'    # [win]
+    - '*/Rlapack.dll'  # [win]
 
 requirements:
   build:
@@ -43,12 +47,12 @@ requirements:
   host:
     - r-base
     - r-rcpp
-    - r-wk
+    - r-wk >=0.6.0
     - openssl
   run:
     - r-base
     - r-rcpp
-    - r-wk
+    - r-wk >=0.6.0
 
 test:
   commands:
