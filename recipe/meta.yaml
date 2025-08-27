@@ -10,8 +10,8 @@ source:
     - {{ cran_mirror }}/src/contrib/s2_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/s2/s2_{{ version }}.tar.gz
   sha256: 4dcd2bff738be5a89b925fed29acb6e224e0f514b4530dc9987a0a72c5a99b55
-  patches:
-    - patches/0001-no-pkg-config-ucrt.patch
+  #patches:
+  #  - patches/0001-no-pkg-config-ucrt.patch
 
 build:
   number: 0
@@ -48,6 +48,7 @@ requirements:
     - r-base
     - r-rcpp
     - r-wk >=0.6.0
+    - libabseil
     - openssl
   run:
     - r-base
