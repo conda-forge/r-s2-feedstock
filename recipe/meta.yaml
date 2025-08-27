@@ -13,6 +13,7 @@ source:
 
 build:
   number: 0
+  skip: true           # [win]
   rpaths:
     - lib/R/lib/
     - lib/
@@ -38,7 +39,6 @@ requirements:
     - {{ posix }}autoconf
     - {{ posix }}automake          # [not win]
     - {{ posix }}automake-wrapper  # [win]
-    - cmake                        # [win]
     - pkg-config
     - {{ posix }}make
     - {{ posix }}coreutils         # [win]
@@ -47,8 +47,8 @@ requirements:
     - r-base
     - r-rcpp
     - r-wk >=0.6.0
-    - libabseil                    # [not win]
-    - openssl                      # [not win]
+    - libabseil
+    - openssl
   run:
     - r-base
     - r-rcpp
