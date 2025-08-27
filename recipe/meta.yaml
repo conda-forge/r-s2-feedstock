@@ -1,4 +1,4 @@
-{% set version = "1.1.7" %}
+{% set version = "1.1.9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,15 +9,18 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/s2_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/s2/s2_{{ version }}.tar.gz
-  sha256: 30762c7150dd72e2f4a3d50e64b8b73b2d59b73275687ba3eea7a6e07f786878
-  patches:
-    - patches/0001-no-pkg-config-ucrt.patch
+  sha256: 4dcd2bff738be5a89b925fed29acb6e224e0f514b4530dc9987a0a72c5a99b55
 
 build:
   number: 0
+  skip: true           # [win]
   rpaths:
     - lib/R/lib/
     - lib/
+  missing_dso_whitelist:
+    - '*/R.dll'        # [win]
+    - '*/Rblas.dll'    # [win]
+    - '*/Rlapack.dll'  # [win]
 
 requirements:
   build:
@@ -43,12 +46,13 @@ requirements:
   host:
     - r-base
     - r-rcpp
-    - r-wk
+    - r-wk >=0.6.0
+    - libabseil
     - openssl
   run:
     - r-base
     - r-rcpp
-    - r-wk
+    - r-wk >=0.6.0
 
 test:
   commands:
