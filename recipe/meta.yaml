@@ -41,6 +41,7 @@ requirements:
     - {{ posix }}autoconf
     - {{ posix }}automake          # [not win]
     - {{ posix }}automake-wrapper  # [win]
+    - cmake                        # [win]
     - pkg-config
     - {{ posix }}make
     - {{ posix }}coreutils         # [win]
