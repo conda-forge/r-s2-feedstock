@@ -14,10 +14,7 @@ source:
     - patches/0001-win-pthread.patch
 
 build:
-  # >>> begin debug
-  skip: true  # [not win]
-  # <<< end debug
-  number: 2
+  number: 3
   rpaths:
     - lib/R/lib/
     - lib/
