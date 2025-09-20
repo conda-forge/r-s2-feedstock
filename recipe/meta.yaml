@@ -49,7 +49,7 @@ requirements:
     - r-base
     - r-rcpp
     - r-wk >=0.6.0
-    - libabseil
+    - libabseil                    # [not win]
     - openssl
   run:
     - r-base
@@ -69,7 +69,9 @@ about:
   summary: Provides R bindings for Google's s2 library for geometric calculations on the sphere. High-performance constructors and exporters provide high compatibility with existing spatial packages, transformers construct new geometries from existing geometries, predicates provide a means to select geometries based on spatial
     relationships, and accessors extract information about geometries.
   license_family: APACHE
-  license_file: LICENSE
+  license_file:
+    - LICENSE
+    - tools/vendor/abseil-cpp/LICENSE  # [win]
 
 extra:
   recipe-maintainers:
