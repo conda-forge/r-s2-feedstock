@@ -12,6 +12,9 @@ source:
   sha256: 4dcd2bff738be5a89b925fed29acb6e224e0f514b4530dc9987a0a72c5a99b55
 
 build:
+  # >>> begin debug
+  skip: true  # [not win]
+  # <<< end debug
   number: 2
   rpaths:
     - lib/R/lib/
