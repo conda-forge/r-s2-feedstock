@@ -10,10 +10,11 @@ source:
     - {{ cran_mirror }}/src/contrib/s2_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/s2/s2_{{ version }}.tar.gz
   sha256: 4dcd2bff738be5a89b925fed29acb6e224e0f514b4530dc9987a0a72c5a99b55
+  patches:
+    - patches/0001-win-pthread.patch
 
 build:
-  number: 2
-  skip: true           # [win]
+  number: 3
   rpaths:
     - lib/R/lib/
     - lib/
@@ -39,15 +40,17 @@ requirements:
     - {{ posix }}autoconf
     - {{ posix }}automake          # [not win]
     - {{ posix }}automake-wrapper  # [win]
+    - cmake                        # [win]
     - pkg-config
     - {{ posix }}make
     - {{ posix }}coreutils         # [win]
+    - {{ posix }}which             # [win]
     - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-rcpp
     - r-wk >=0.6.0
-    - libabseil
+    - libabseil                    # [not win]
     - openssl
   run:
     - r-base
@@ -67,7 +70,9 @@ about:
   summary: Provides R bindings for Google's s2 library for geometric calculations on the sphere. High-performance constructors and exporters provide high compatibility with existing spatial packages, transformers construct new geometries from existing geometries, predicates provide a means to select geometries based on spatial
     relationships, and accessors extract information about geometries.
   license_family: APACHE
-  license_file: LICENSE
+  license_file:
+    - LICENSE
+    - tools/vendor/abseil-cpp/LICENSE  # [win]
 
 extra:
   recipe-maintainers:
