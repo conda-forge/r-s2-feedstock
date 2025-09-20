@@ -44,6 +44,7 @@ requirements:
     - pkg-config
     - {{ posix }}make
     - {{ posix }}coreutils         # [win]
+    - {{ posix }}which             # [win]
     - {{ posix }}zip               # [win]
   host:
     - r-base
